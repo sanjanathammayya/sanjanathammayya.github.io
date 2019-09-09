@@ -1,42 +1,49 @@
 #include<stdio.h>
-void main()
+#include<stdlib.h>
+#include<math.h>
+int main()
 {
-        int a[10],i,n,k;
-        printf("enter n");
-        scanf("%d,&n");
-        printf("enter k");
-        scanf("%d,&k");
-        for(i=0;i<n;i++)
+        
+#include<stdio.h>
+int main()
+{
+        int k,n,i=0,a[100],s=0,d=0,t=1,c=0;
+        scanf("%d",&t);
+        if(t<10)
         {
-                scanf("%d",&a[i]);
-        }
-        printf("the array elements are:");
-        if(a[i]>=k)
-        {
-                i=0;
-                while(i<n)
+                while(c<t)
                 {
-                        a[i]=a[i]+1;
-                        i++;
+                        printf("no of elements");
+                        scanf("%d",&n);
+                        printf("enter the kth element"):
+                                scanf("%d",&k);
+                        printf("enter the array");
+                        for(i=0;i<n;i++)
+                                sacnf("%d",&a);
+                        s=a[0];
+                        for(i=0;i<n;i++)
+                        {
+                                if(a[i]<s)
+                                {
+                                        s=a[i];
+                                }
+                        }
+                        if(s==k)
+                        {
+                                printf("%d",d);
+                        }
+                        else
+                        {
+                                while(s<k)
+                                {
+                                        s++;
+                                        d++;
+                                        printf("%d",d);
+                                        s=0;
+                                          d=0;
+                                          c++;
+                                }
+                        }
                 }
 
-        }
-        else
-        {
-                printf("array is");
-        for(i=0;i<n;i++)
-        {
-                printf("%d",a[i]);
-        }
-        
-}
-        else
-        {
-                printf("array is");
-        for(i=0;i<n;i++)
-        {
-                printf("%d",a[i]);
-
-        }
-        }
 # sanjanathammayya.github.io
